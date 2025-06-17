@@ -4,7 +4,7 @@ import {useRouter} from "next/navigation";
 import {apiAuth} from "@/utils/api";
 import {useAuth} from "@/context/AuthContext";
 
-export default function LoginForm() {
+export function LoginForm() {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -52,3 +52,4 @@ export default function LoginForm() {
         </div>
     )
 }
+

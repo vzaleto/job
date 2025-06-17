@@ -2,7 +2,7 @@
 import {useState} from "react";
 import {apiAuth} from "@/utils/api";
 
-export default function RegisterForm() {
+export function RegisterForm() {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

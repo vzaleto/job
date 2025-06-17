@@ -1,5 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Job Search App
 
+This is a job search app built with **Next.js**, **React**, **TypeScript**, **Context API**, **TailwindCSS**, and other modern technologies.
+
+##  Features
+
+- Authorization and registration with token stored in `localStorage`
+- User profile creation and editing
+- Navigation with dynamic NavBar (based on auth state)
+- Ability to add jobs to favorites
+- Global state via Context API
+- Route protection (redirect to `/login` if not authorized)
+- Layout with TailwindCSS
+
+## Technologies Used
+
+- [Next.js (App Router)](https://nextjs.org)
+- React with Hooks
+- TypeScript
+- Context API
+- TailwindCSS
+- React Icons
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+npm run dev
+
+Then open http://localhost:3000 in your browser.
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 ## Getting Started
 
 First, run the development server:
@@ -35,3 +71,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # job
+

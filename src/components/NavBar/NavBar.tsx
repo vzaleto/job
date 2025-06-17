@@ -62,7 +62,7 @@ export const NavBar = () => {
                 {navItems.map((item, index) => (
                     <li key={index}>
                         {item.type === 'link' && (
-                            <Link href={item.href || '/'}
+                            <Link href={item.href || '/job/public'}
                                   className={`flex flex-col items-center p-3 md:flex-row md:gap-2 ${pathName === item.href ? 'text-blue-500' : 'text-gray-600'} hover:text-blue-400 transition-colors duration-300`}>
                                 <span>{item.icon}</span><span>{item.label}</span>
                             </Link>
